@@ -1,6 +1,6 @@
-# 🌸 Iris Flower Classification using K-Nearest Neighbors (KNN)
+# Iris Flower Classification using K-Nearest Neighbors (KNN)
 
-## 📌 Project Overview
+## Project Overview
 This project implements **K-Nearest Neighbors (KNN)** classification on the **Iris Flower Dataset** using **scikit-learn**.  
 
 
@@ -13,7 +13,7 @@ The project includes:
 
 ---
 
-## 📂 Dataset Information
+##  Dataset Information
 - **Dataset Name:** Iris Flower Dataset
 
 
@@ -27,17 +27,17 @@ The project includes:
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
-### 1️⃣ Missing Value Handling
+###  Missing Value Handling
 - Checked for missing values
 - Replaced missing values (if any) using **column mean**
 
-### 2️⃣ Feature Scaling
+###  Feature Scaling
 - Applied **Min–Max Scaling** to normalize all numeric features  
 - Scaling range: **[0, 1]**
 
-### 3️⃣ Train-Test Split Ratios
+###  Train-Test Split Ratios
 The dataset was split using multiple ratios:
 - **50:50**
 - **60:40**
@@ -46,7 +46,7 @@ The dataset was split using multiple ratios:
 
 ---
 
-## 🤖 Model Used
+##  Model Used
 - **Algorithm:** K-Nearest Neighbors (KNN)
 - **Library:** scikit-learn
 - **Distance Metric:** Euclidean (default)
@@ -55,7 +55,7 @@ The dataset was split using multiple ratios:
 
 ---
 
-## 📊 Model Evaluation Metrics
+##  Model Evaluation Metrics
 Each model configuration was evaluated using:
 
 - **Accuracy**
@@ -68,10 +68,10 @@ Macro-averaging was used for multi-class evaluation.
 
 ---
 
-## 🏆 Best Model Selection
+##  Best Model Selection
 The optimal model was selected based on **highest accuracy and balanced precision/recall**.
 
-### ✅ Final Observation
+###  Final Observation
 - **Best Split Ratio:** 70:30 or 80:20  
 - **Optimal K Value:** 3 or 5  
 - **Achieved Accuracy:** ~96% – 100%
@@ -81,8 +81,8 @@ The optimal model was selected based on **highest accuracy and balanced precisio
 
 ---
 
-## 🛠 Technologies Used
-- Python 🐍
+##  Technologies Used
+- Python 
 - Pandas
 - NumPy
 - Scikit-learn
